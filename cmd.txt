@@ -1,0 +1,34 @@
+Команная строка cmd 
+
+Навигадция по системе
+
+dir - показывать файлы и папки в дероктории
+desktop - Робочий стол
+cd - зайти или перейти в папку
+cd .. - выход
+tree - структура папок
+cls - очистить
+
+Робота с файлами и папками
+mkdir folder - открываеть папок
+rmdir folder - удаляеть папок
+remame od new - переименовать
+color a - зеленный 
+
+Информация о системе 
+systeminfo - полная информация о показывать
+hostname = имя ПК 
+whoami - текущий пользаватель
+
+Сеть
+ipconfig - IP Адрес
+ping google.com - проверяет сет пинг
+
+shutdown/r - перезагруска
+
+import os
+if not os.path.exists("my_project"):
+    os.makedirs("my_project")
+with open("my_project/README.md","w") as file:
+      file.write("Hello, Terminal!")
+write open("my_project/README.md","r") as file
